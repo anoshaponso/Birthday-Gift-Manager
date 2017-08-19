@@ -87,7 +87,6 @@ public class DetailView extends ActionBarActivity {
 
                 public boolean onItemLongClick(AdapterView<?> arg0, View v,
                                                final int position, long arg3) {
-                    // TODO Auto-generated method stub
                     AlertDialog.Builder builder = new AlertDialog.Builder(DetailView.this);
                     final int p = position;
                     builder.setMessage("Do you want to delete Gift ?")

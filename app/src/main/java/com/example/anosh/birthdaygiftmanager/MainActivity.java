@@ -72,7 +72,6 @@ public class MainActivity  extends ActionBarActivity {
 
                 public boolean onItemLongClick(AdapterView<?> arg0, View v,
                                                final int position, long arg3) {
-                    // TODO Auto-generated method stub
                     String[] array ={"Update","Delete"};
                     AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
                     builder.setTitle("Choose a photo")

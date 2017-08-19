@@ -6,7 +6,6 @@
     <string name="title_activity_add_birthday">Add Birthday</string>
     <string name="title_activity_home">Home</string>
 
-<!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_add_gift">AddGift</string>
     <string name="title_activity_detail_view">DetailView</string>
