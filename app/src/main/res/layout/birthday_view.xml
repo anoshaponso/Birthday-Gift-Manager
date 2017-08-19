@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:background="@android:color/background_light"
+                android:layout_margin="5dp">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New Text"
+                    android:id="@+id/daysLeft"
+                    android:textColor="@android:color/background_dark"
+                android:layout_alignBottom="@+id/age"
+                android:layout_alignLeft="@+id/birthday"
+                android:layout_alignStart="@+id/birthday"
+                android:gravity="bottom" />
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="turns"
+                    android:id="@+id/turns"
+                    android:textColor="@android:color/background_dark"
+                android:gravity="right"
+                android:layout_below="@+id/personName"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/personImage"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:src="@mipmap/ic_launcher"
+                android:layout_alignParentBottom="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Medium Text"
+                android:id="@+id/personName"
+                android:layout_alignTop="@+id/personImage"
+                android:layout_alignLeft="@+id/birthday"
+                android:layout_alignStart="@+id/birthday" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Text"
+                android:id="@+id/birthday"
+                android:layout_below="@+id/turns"
+                android:layout_toRightOf="@+id/personImage"
+                android:layout_toEndOf="@+id/personImage"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Medium Text"
+                android:id="@+id/age"
+                android:layout_below="@+id/birthday"
+                android:layout_toRightOf="@+id/personName"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:gravity="right" />
+        </RelativeLayout>
+    </TableRow>
+</LinearLayout>
